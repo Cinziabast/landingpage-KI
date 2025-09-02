@@ -3,86 +3,176 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Kampagnen-Landing – Brand</title>
-  <meta name="description" content="Kampagne für [Produkt/Service] – jetzt informieren und Angebot erhalten.">
+  <title>KI im Marketing & Design – Online Kurs</title>
+  <meta name="description" content="Praxisnaher Kurs: Lerne, wie du KI-Tools in Marketing & Design einsetzt. Online, flexibel, mit Zertifikat.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
+  <!-- Header / Hero -->
   <header class="hero">
-    <div class="container hero__wrap">
-      <div class="hero__content">
-        <h1><span class="accent">Mehr Leads</span> mit Ihrer Kampagne</h1>
-        <p class="sub">Schnell, messbar und im Brand-Look. Fordern Sie jetzt Ihr unverbindliches Angebot an.</p>
-        <a href="#lead" class="btn btn--primary">Jetzt Angebot anfragen</a>
+    <div class="container hero__grid">
+      <div class="hero__copy">
+        <p class="eyebrow">Online • 4 Wochen • Zertifikat</p>
+        <h1>
+          Lerne, wie <span class="grad">KI</span> dein
+          <br/>Marketing & Design transformiert
+        </h1>
+        <p class="lead">
+          Starte jetzt mit unserem praxisnahen Kurs „KI im Marketing & Design“ und erhalte
+          das Know-how, um moderne Tools sicher und effektiv einzusetzen.
+        </p>
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="#form">Jetzt Infos anfordern</a>
+          <a class="btn btn--ghost" href="#curriculum">Was ist im Kurs enthalten?</a>
+        </div>
+        <div class="badges">
+          <span>200+ Absolvent:innen</span>
+          <span>Flexible Zeiten</span>
+          <span>Praxisorientiert</span>
+        </div>
       </div>
 
-      <!-- 🔁 Cambia la imagen por una propia (URL pública) -->
-      <img class="hero__img" src="https://images.unsplash.com/photo-1557800636-894a64c1696f?q=80&w=1080&auto=format"
-           alt="Illustration einer Marketing-Kampagne" />
+      <div class="hero__media">
+        <!-- Reemplaza la imagen por la de tu curso si quieres -->
+        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=900&auto=format&fit=crop" alt="Laptop mit KI-Workflow" />
+      </div>
     </div>
   </header>
 
+  <!-- Logos (opcional) -->
   <section class="logos">
-    <div class="container logos__row" aria-label="Referenzen">
-      <img src="https://dummyimage.com/120x36/ddd/333&text=Logo+1" alt="Logo 1">
-      <img src="https://dummyimage.com/120x36/ddd/333&text=Logo+2" alt="Logo 2">
-      <img src="https://dummyimage.com/120x36/ddd/333&text=Logo+3" alt="Logo 3">
-      <img src="https://dummyimage.com/120x36/ddd/333&text=Logo+4" alt="Logo 4">
+    <div class="container logos__row">
+      <span class="logo-pill">Logo 1</span>
+      <span class="logo-pill">Logo 2</span>
+      <span class="logo-pill">Logo 3</span>
+      <span class="logo-pill">Logo 4</span>
     </div>
   </section>
 
-  <section class="features">
+  <!-- Vorteile -->
+  <section class="features" id="benefits">
     <div class="container">
-      <h2>Warum diese Landingpage konvertiert</h2>
-      <div class="grid">
+      <h2 class="section-title">Warum dieser Kurs überzeugt</h2>
+      <div class="cards">
         <article class="card">
-          <h3>Klarer Fokus</h3>
-          <p>Eine einzige, klare Handlungsaufforderung – ohne Ablenkung.</p>
+          <h3>Praxisnah & verständlich</h3>
+          <p>Schritt-für-Schritt Erklärungen, Templates und echte Beispiele aus Marketing & Design.</p>
         </article>
         <article class="card">
-          <h3>Schnell & mobil</h3>
-          <p>Mobile-first Layout und schnelle Ladezeiten für bessere Performance.</p>
+          <h3>Schnell & flexibel</h3>
+          <p>Online lernen – in deinem Tempo. Live-Sessions und Aufzeichnungen inklusive.</p>
         </article>
         <article class="card">
-          <h3>Brand-Fit</h3>
-          <p>Farben, Typo & Tonalität lassen sich in Minuten anpassen.</p>
+          <h3>Mit Zertifikat</h3>
+          <p>Erhalte nach Abschluss eine offizielle Teilnahmebestätigung.</p>
         </article>
       </div>
     </div>
   </section>
 
-  <section id="lead" class="lead">
-    <div class="container lead__wrap">
-      <div class="lead__text">
-        <h2>Unverbindliches Angebot</h2>
-        <p>Teilen Sie uns kurz Ihr Anliegen mit – wir melden uns innerhalb von 24 Stunden.</p>
+  <!-- Curriculum / Inhalte -->
+  <section class="curriculum" id="curriculum">
+    <div class="container">
+      <h2 class="section-title">Das lernst du im Kurs</h2>
+      <div class="steps">
+        <div class="step">
+          <span class="step__badge">Modul 1</span>
+          <h4>KI-Grundlagen im Marketing</h4>
+          <p>Use-Cases, Workflows, rechtliche Aspekte, Risiken und Best Practices.</p>
+        </div>
+        <div class="step">
+          <span class="step__badge">Modul 2</span>
+          <h4>Prompting & Content-Erstellung</h4>
+          <p>Texte, Kampagnenideen, Social-Posts, Ads & Landingpages mit KI beschleunigen.</p>
+        </div>
+        <div class="step">
+          <span class="step__badge">Modul 3</span>
+          <h4>Design & Bildgenerierung</h4>
+          <p>Visuelle Konzepte, Moodboards, Bildbearbeitung & Automationen.</p>
+        </div>
+        <div class="step">
+          <span class="step__badge">Modul 4</span>
+          <h4>Implementierung & Reporting</h4>
+          <p>KI in bestehende Prozesse integrieren, Metriken, Ethik & Qualitätssicherung.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Social Proof -->
+  <section class="social">
+    <div class="container social__grid">
+      <div>
+        <h2 class="section-title">Vertrauen & Ergebnisse</h2>
+        <ul class="checks">
+          <li>Über <strong>200+ Teilnehmer</strong> haben den Kurs erfolgreich abgeschlossen.</li>
+          <li>Empfohlen von Marketing- und Design-Expert:innen.</li>
+          <li>Bewertung: <strong>4.8/5</strong> (Durchschnitt).</li>
+        </ul>
+      </div>
+      <div class="quote">
+        <p>„Der Kurs hat unseren Content-Prozess halbiert und die Qualität sogar erhöht.“</p>
+        <span>— Lara S., Brand Managerin</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Formular -->
+  <section class="form-section" id="form">
+    <div class="container form__grid">
+      <div class="form__copy">
+        <h2 class="section-title">Unverbindlich Informationen anfordern</h2>
+        <p>Trage deine Daten ein – wir senden dir innerhalb von 24 Stunden alle Kursdetails.</p>
+        <ul class="bullets">
+          <li>Kursstart & Termine</li>
+          <li>Curriculum im Detail</li>
+          <li>Preis & Fördermöglichkeiten</li>
+        </ul>
       </div>
 
-      <!-- ⚠️ Demo-Formular (no envía datos) -->
-      <form class="form" aria-label="Kontaktformular" onsubmit="event.preventDefault(); alert('Danke! (Demo)');">
-        <label>Vor- und Nachname
-          <input type="text" name="name" required autocomplete="name" />
+      <form class="form" action="https://formspree.io/f/your-id" method="POST">
+        <!-- RECUERDA: sustituye la URL de formspree por la tuya o usa mailto: -->
+        <label>
+          <span>Vor- und Nachname</span>
+          <input type="text" name="name" placeholder="Max Mustermann" required>
         </label>
-        <label>E-Mail
-          <input type="email" name="email" required autocomplete="email" />
+
+        <label>
+          <span>E-Mail</span>
+          <input type="email" name="email" placeholder="max@beispiel.de" required>
         </label>
-        <label>Nachricht
-          <textarea name="message" rows="4" required></textarea>
+
+        <label>
+          <span>Nachricht (optional)</span>
+          <textarea name="message" rows="4" placeholder="Deine Frage…"></textarea>
         </label>
+
         <label class="checkbox">
-          <input type="checkbox" required />
-          <span>Ich stimme der Verarbeitung meiner Daten gemäß Datenschutzhinweisen zu.</span>
+          <input type="checkbox" required>
+          <span>Ich stimme der Verarbeitung meiner Daten gemäß <a href="#datenschutz">Datenschutz</a> zu.</span>
         </label>
-        <button type="submit" class="btn btn--primary">Senden</button>
-        <p class="hint">Demo-Formular – keine Datenübermittlung.</p>
+
+        <button class="btn btn--primary" type="submit">Jetzt Infos erhalten</button>
+        <small class="form__note">Deine Daten werden vertraulich behandelt.</small>
       </form>
     </div>
   </section>
 
+  <!-- Footer -->
   <footer class="footer">
-    <div class="container footer__wrap">
-      <p>© 2025 Brand GmbH • <a href="#">Impressum</a> • <a href="#">Datenschutz</a></p>
+    <div class="container footer__row">
+      <span>© 2025 Cintia | KI-Kurs</span>
+      <nav class="footer__nav">
+        <a href="#">Impressum</a>
+        <a id="datenschutz" href="#">Datenschutz</a>
+        <a href="#">Kontakt</a>
+      </nav>
     </div>
   </footer>
 </body>
 </html>
+
