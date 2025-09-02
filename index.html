@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kampagnen-Landing – Brand</title>
+  <meta name="description" content="Kampagne für [Produkt/Service] – jetzt informieren und Angebot erhalten.">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="container hero__wrap">
+      <div class="hero__content">
+        <h1><span class="accent">Mehr Leads</span> mit Ihrer Kampagne</h1>
+        <p class="sub">Schnell, messbar und im Brand-Look. Fordern Sie jetzt Ihr unverbindliches Angebot an.</p>
+        <a href="#lead" class="btn btn--primary">Jetzt Angebot anfragen</a>
+      </div>
+
+      <!-- 🔁 Cambia la imagen por una propia (URL pública) -->
+      <img class="hero__img" src="https://images.unsplash.com/photo-1557800636-894a64c1696f?q=80&w=1080&auto=format"
+           alt="Illustration einer Marketing-Kampagne" />
+    </div>
+  </header>
+
+  <section class="logos">
+    <div class="container logos__row" aria-label="Referenzen">
+      <img src="https://dummyimage.com/120x36/ddd/333&text=Logo+1" alt="Logo 1">
+      <img src="https://dummyimage.com/120x36/ddd/333&text=Logo+2" alt="Logo 2">
+      <img src="https://dummyimage.com/120x36/ddd/333&text=Logo+3" alt="Logo 3">
+      <img src="https://dummyimage.com/120x36/ddd/333&text=Logo+4" alt="Logo 4">
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="container">
+      <h2>Warum diese Landingpage konvertiert</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Klarer Fokus</h3>
+          <p>Eine einzige, klare Handlungsaufforderung – ohne Ablenkung.</p>
+        </article>
+        <article class="card">
+          <h3>Schnell & mobil</h3>
+          <p>Mobile-first Layout und schnelle Ladezeiten für bessere Performance.</p>
+        </article>
+        <article class="card">
+          <h3>Brand-Fit</h3>
+          <p>Farben, Typo & Tonalität lassen sich in Minuten anpassen.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="lead" class="lead">
+    <div class="container lead__wrap">
+      <div class="lead__text">
+        <h2>Unverbindliches Angebot</h2>
+        <p>Teilen Sie uns kurz Ihr Anliegen mit – wir melden uns innerhalb von 24 Stunden.</p>
+      </div>
+
+      <!-- ⚠️ Demo-Formular (no envía datos) -->
+      <form class="form" aria-label="Kontaktformular" onsubmit="event.preventDefault(); alert('Danke! (Demo)');">
+        <label>Vor- und Nachname
+          <input type="text" name="name" required autocomplete="name" />
+        </label>
+        <label>E-Mail
+          <input type="email" name="email" required autocomplete="email" />
+        </label>
+        <label>Nachricht
+          <textarea name="message" rows="4" required></textarea>
+        </label>
+        <label class="checkbox">
+          <input type="checkbox" required />
+          <span>Ich stimme der Verarbeitung meiner Daten gemäß Datenschutzhinweisen zu.</span>
+        </label>
+        <button type="submit" class="btn btn--primary">Senden</button>
+        <p class="hint">Demo-Formular – keine Datenübermittlung.</p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__wrap">
+      <p>© 2025 Brand GmbH • <a href="#">Impressum</a> • <a href="#">Datenschutz</a></p>
+    </div>
+  </footer>
+</body>
+</html>
